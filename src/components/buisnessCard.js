@@ -1,18 +1,14 @@
-import headShot from '/Users/bobbydeluna/Desktop/Portfolio/portfolio/src/headshot.jpg';
-import phone from '/Users/bobbydeluna/Desktop/Portfolio/portfolio/src/phone.png'
-import at from '/Users/bobbydeluna/Desktop/Portfolio/portfolio/src/at.png'
-import question from '/Users/bobbydeluna/Desktop/Portfolio/portfolio/src/question.png'
+import headShot from '/Users/bobbydeluna/Desktop/blam/Portfolio/src/headshot.jpg'
+import phone from '/Users/bobbydeluna/Desktop/blam/Portfolio/src/phone.png'
+import at from '/Users/bobbydeluna/Desktop/blam/Portfolio/src/at.png'
+import question from '/Users/bobbydeluna/Desktop/blam/Portfolio/src/question.png'
 
 
 function BuissnessCard({
     setHidePhone,
     setHidePhoneSpace,
-    setHideSocial,
-    setHideSocialSpace,
-    setSocBox,
     turn,
     setTurn,
-    setLink
 }){
 
 
