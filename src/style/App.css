@@ -1,0 +1,309 @@
+body{
+  background-color: #0e151e;
+  padding-bottom: 100px;
+}
+
+#card{
+  background-color: #2d4864;
+  position: absolute;
+  width:450px;
+  height: 400px;
+  margin-left: 25px;
+  margin-top: 25px;
+  text-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f5f6f0;
+  z-index: 1;
+}
+
+#headshot{
+  position: relative;
+  border-radius: 50%;
+  height: 190px;
+  width: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  z-index: 3;
+}
+
+#headBorder{
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  width:200px;
+  bottom: 200px;
+  left: 120px;
+  z-index: 2;
+  border-style: solid;
+  border-width: thick;
+  border-color: #f5f6f0;
+}
+
+#cardInfo{
+  color: #f5f6f0;
+  position: relative;
+  bottom: 210px;
+}
+
+#name{
+  font-size: 50px;
+  margin-top: 5px;
+  font-family: "HelveticaNeue";
+  position: relative;
+}
+
+#title{
+  font-size: 20px;
+  position: relative;
+  top:-35px;
+  z-index: 2;
+  font-family: "HelveticaNeue";
+
+}
+
+#contactInfo{
+position: relative;
+width: 100%;
+bottom: 250px;
+}
+
+#phone{
+  position: absolute;
+  left: 5%;
+  height: 70px;
+  width: 70px;
+  border-style: solid;
+  background-color:#f5f6f0;
+  border-radius: 10%;
+  border-color: #f5f6f0;
+  transition: 1s;
+}
+
+#phone:hover{
+  cursor: pointer;
+  position: absolute;
+  transition: 1s;
+  width:75px;
+  height:75px;
+}
+
+#at{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 70px;
+  width: 70px;
+  border-style: solid;
+  background-color: #f5f6f0;
+  border-radius: 10%;
+  border-color: #f5f6f0;
+  transition: 1s;
+}
+
+#at:hover{
+  cursor: pointer;
+  position: absolute;
+  transition: 1s;
+  width:75px;
+  height:75px;
+}
+
+#question{
+  position: absolute;
+  right: 5%;
+  height: 70px;
+  width: 70px;
+  border-style: solid;
+  background-color: #f5f6f0;
+  border-radius: 10%;
+  border-color: #f5f6f0;
+  transition: 1s;
+}
+
+#question:hover{
+  cursor: pointer;
+  position: absolute;
+  transition: 1s;
+  width:75px;
+  height:75px;
+}
+
+#dropDown{
+  position: absolute;
+  width: 450px;
+  height: 0px;
+  margin-left: 25px;
+  margin-top: 425px;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: transparent;
+  border-bottom-color: #f5f6f0;
+  border-left-color: #f5f6f0;
+  border-right-color: #f5f6f0;
+  background-color: #2d4864;
+  transition: 1s;
+  z-index: 0;
+  overflow-y: hidden;
+  overflow-x: hidden
+}
+
+#dropDownPhone{
+  background-color: #2d4864;
+  position: absolute;
+  width:450px;
+  height: 200px;
+  margin-left: 25px;
+  margin-top: 430px;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-top-color: transparent;
+  border-bottom-color: #f5f6f0;
+  border-left-color: #f5f6f0;
+  border-right-color: #f5f6f0;
+  transition: 1s;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#phoneInfo{
+  color: #f5f6f0;
+  transition: 0.5s;
+}
+
+#hide{
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+  transition: 2s;
+}
+
+#dropTitle{
+  position: relative;
+  margin-left: 10px;
+  font-family: "HelveticaNeue";
+}
+
+#phoneNumber{
+  position: relative;
+  left: 10px;
+  font-family: "HelveticaNeue";
+}
+
+#email{
+  position: relative;
+  left: 10px;
+  font-family: "HelveticaNeue";
+  padding-bottom: 15px;
+}
+
+#phoneSpacing{
+  position: relative;
+  background-color: #f5f6f0;
+  height: 2px;
+  width: 95%;
+  margin: auto;
+  transition: 1s;
+}
+
+#hidePhoneSpace{
+  position: relative;
+  background-color: transparent;
+  height: 2px;
+  width: 95%;
+  margin: auto;
+  transition: 1s;
+}
+
+#dropDownSocial{
+  background-color: #2d4864;
+  position: absolute;
+  width:450px;
+  height: 200px;
+  margin-left: 25px;
+  margin-top: 430px;
+  align-items: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f5f6f0;
+  color: #f5f6f0;
+  transition: 1s;
+}
+
+#socialInfo{
+  color: #f5f6f0;
+  transition: 1s;
+}
+
+#socialTitle{
+  position: relative;
+  left:10px;
+  bottom:180px;
+  font-family: "HelveticaNeue";
+}
+
+#socBox{
+position: relative;
+left: 10px;
+bottom: 180px;
+font-family: "HelveticaNeue";
+transition: 2s;
+color: #f5f6f0;
+}
+
+#link{
+  font-family: "HelveticaNeue";
+  color: #f5f6f0;
+  text-decoration: none;
+  position: relative;
+  transition: 1s;
+}
+
+#github{
+  font-family: "HelveticaNeue";
+  color: #f5f6f0;
+  text-decoration: none;
+  position: relative;
+}
+
+#instagram{
+  font-family: "HelveticaNeue";
+  color: #f5f6f0;
+  text-decoration: none;
+  position: relative;
+  transition: 1s;
+}
+
+#socialSpace{
+  position: relative;
+  background-color: #f5f6f0;
+  height: 2px;
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 1s;
+}
+
+#hideSocialSpace{
+  position: relative;
+  background-color: transparent;
+  height: 2px;
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: 1s;
+}
+
+#hideSocBox{
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  position: relative;
+  transition: 1s;
+}
