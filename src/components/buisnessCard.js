@@ -5,26 +5,32 @@ import question from '/Users/bobbydeluna/Desktop/blam/Portfolio/src/question.png
 
 
 function BuissnessCard({
-    setHidePhone,
-    setHidePhoneSpace,
     turn,
-    setTurn,
-}){
-
-
+    setTurn})
+{
     const turnPhone = () => { 
-        if(turn !== "Phone") {
-            setHidePhone("phoneInfo");
-            setHidePhoneSpace("phoneSpacing");
-            setTurn("Phone"); 
-        } 
+        if(turn === ""){
+            setTurn("Phone")
+        }
+        else if(turn === "Soc"){
+                setTurn("DelaySoc");
+                setTimeout(()=>{setTurn("Phone")}, 1000)
+        }
         else{
-            setHidePhone("hide");
-            setHidePhoneSpace("hidePhoneSpace");
-            setTurn("");    
-        } 
-        console.log("oop")
-         };
+            setTurn("DelayPhone");
+            setTimeout(()=>{setTurn("")}, 1000);
+        }    
+        //end of turnPhone
+            };
+
+    
+    const turnSoc = () => {
+        if(turn === ""){
+            setTurn("Soc");
+        } else {
+            setTurn("");
+        }
+    }
 
     return (
         <div id="card">
@@ -36,7 +42,7 @@ function BuissnessCard({
             </div>
             <div id="contactInfo">
                 <img id="phone" src={phone} alt='blam' onClick={turnPhone}></img>
-                <img id="at" src={at} alt='blam'></img>
+                <img id="at" src={at} alt='blam' onClick={turnSoc}></img>
                 <img id="question"src={question} alt='blam'></img>
             </div>
         </div>

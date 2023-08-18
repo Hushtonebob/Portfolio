@@ -1,0 +1,128 @@
+#card{
+    background-color: #2d4864;
+    position: absolute;
+    width:450px;
+    height: 400px;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #f5f6f0;
+    z-index: 1;
+  }
+  
+  #headshot{
+    position: relative;
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    z-index: 3;
+  }
+  
+  #headBorder{
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    bottom: 200px;
+    left: 120px;
+    z-index: 2;
+    border-style: solid;
+    border-width: thick;
+    border-color: #f5f6f0;
+  }
+  
+  #cardInfo{
+    color: #f5f6f0;
+    position: relative;
+    bottom: 210px;
+  }
+  
+  #name{
+    font-size: 50px;
+    margin-top: 5px;
+    font-family: "HelveticaNeue";
+    position: relative;
+  }
+  
+  #title{
+    font-size: 20px;
+    position: relative;
+    top:-35px;
+    z-index: 2;
+    font-family: "HelveticaNeue";
+  
+  }
+  
+  #contactInfo{
+  position: relative;
+  width: 100%;
+  bottom: 250px;
+  }
+  
+  #phone{
+    position: absolute;
+    left: 5%;
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    background-color:#f5f6f0;
+    border-radius: 10%;
+    border-color: #f5f6f0;
+    transition: 1s;
+  }
+  
+  #phone:hover{
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+    width:75px;
+    height:75px;
+  }
+  
+  #at{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    background-color: #f5f6f0;
+    border-radius: 10%;
+    border-color: #f5f6f0;
+    transition: 1s;
+  }
+  
+  #at:hover{
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+    width:75px;
+    height:75px;
+  }
+  
+  #question{
+    position: absolute;
+    right: 5%;
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    background-color: #f5f6f0;
+    border-radius: 10%;
+    border-color: #f5f6f0;
+    transition: 1s;
+  }
+  
+  #question:hover{
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+    width:75px;
+    height:75px;
+  }
