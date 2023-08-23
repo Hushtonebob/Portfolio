@@ -1,10 +1,10 @@
-
+import linkLogo from "/Users/bobbydeluna/Desktop/blam/Portfolio/src/linkedin-logo-png.png"
 
 
 function SocDrop(){
 
     return(            
-    <div id={"socInfo"}>
+    <div id="socInfo">
         <h1 id="socialTitle">Socials</h1>
             <a rel="noreferrer" href="https://www.linkedin.com/in/robert-de-luna-9b9691165/" target="_blank">
                 <h3 id="atDrop">Linkedin</h3>

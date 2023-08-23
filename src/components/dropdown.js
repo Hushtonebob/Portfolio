@@ -1,5 +1,6 @@
 import PhoneDrop from "./phoneDrop";
 import SocDrop from "./socDrop";
+import MoreInfo from "./moreInfo";
 
 function DropDown({turn}){
 
@@ -18,6 +19,12 @@ function DropDown({turn}){
         }
         else if(turn === "DelaySoc"){ 
             return <SocDrop />;
+        }
+        else if(turn === "MoreInfo"){
+            return <MoreInfo />
+        }
+        else if(turn === "MoreInfoDelay"){
+            return <MoreInfo />
         }
     }
 
